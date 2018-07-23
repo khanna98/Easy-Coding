@@ -1,0 +1,15 @@
+#header{
+    background: url("./../images/header1.jpg");
+    background-size: cover;
+    height: 400px;
+    /*border-radius: 20px;*/
+}
+.top{
+    margin-top: 30px;
+}
+#heading{
+    padding: 30px;
+    text-align: center;
+    font-size: 5em;
+    color: cornsilk;
+}
