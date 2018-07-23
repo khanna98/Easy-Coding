@@ -13,3 +13,50 @@
     font-size: 5em;
     color: cornsilk;
 }
+.pic{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+a:link{
+    color: #000; 
+}
+a:hover{
+    color: #bbb;
+}
+.sub{
+    text-align: center;
+    font-size: 20px;
+}
+#desc{
+    font-size: 2em;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgb(29, 28, 28);
+    padding-top: 10px; 
+    padding-bottom: 0px;
+    color: gray;
+}
+@media ( min-width: 768px ) {
+    .grid-divider {
+        position: relative;
+        padding: 0;
+    }
+    .grid-divider>[class*='col-'] {
+        position: static;
+    }
+    .grid-divider>[class*='col-']:nth-child(n+2):before {
+        content: "";
+        border-left: 1px solid #DDD;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+    }
+    .col-padding {
+        padding: 0 15px;
+    }
+}
+body{
+    background: url(./../images/bg.jpg);
+    background-size: cover;
+}
