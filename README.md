@@ -1,2 +1,4 @@
 # Easy Coding
-A simple site for notes and learning for anyone and everyone in need.
+A place where coding is made easy for everyone ! :smile:
+
+Visit us as [easycoding.gq](http://easycoding.gq)
