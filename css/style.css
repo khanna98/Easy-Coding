@@ -94,7 +94,7 @@ h2::after{
     }
 }
 
-/* Media Queries */
+/* Media Queries for mobile */
 @media only screen and (max-device-width : 480px)
 {
     .head{
