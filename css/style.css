@@ -17,12 +17,12 @@
 
 .head{
     padding-top: 80px;
-    font-size: 5em;
+    font-size: 7em;
     color: white;
 }
 .sub-head{
     color: white;
-    font-size: 2.5em;
+    font-size: 3.5em;
     padding-bottom: 80px;
 }
 .pic{
@@ -98,9 +98,12 @@ h2::after{
 @media only screen and (max-device-width : 480px)
 {
     .head{
-        font-size: 3em;
+        font-size: 5em;
     }
     .sub-head{
-        font-size: 1em;
+        font-size: 2em;
+    }
+    .desc{
+        font-size: 2em;
     }
 }
