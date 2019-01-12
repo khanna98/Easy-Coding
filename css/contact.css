@@ -34,6 +34,33 @@
     font-family: 'Abel', sans-serif;
 }
 
+.desc1{
+    font-size: 3em;
+}
+
+.rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    text-align: center;
+}
+.rating > span {
+    display: inline-block;
+    position: relative;
+    font-size: 2em;
+    padding: 5px;
+}
+.rating > span:hover,
+.rating > span:hover ~ span {
+    color: transparent;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+    content: "\2605";
+    position: absolute;
+    left: 0; 
+    color: gold;
+}
+
 @media only screen and (max-device-width : 480px)
 {
     .head{
