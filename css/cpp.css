@@ -32,3 +32,19 @@
     height: auto;
     font-family: 'Abel', sans-serif;
 }
+
+@media only screen and (max-device-width : 480px)
+{
+    .head{
+        font-size: 5em;
+    }
+    .sub-head{
+        font-size: 2em;
+    }
+    .desc{
+        font-size: 2em;
+    }
+    .header{
+       background-image: linear-gradient(rgba(20,20,20,0.6),rgba(20,20,20,0.6)),url("../images/c++1.png");
+    }
+}
